@@ -1,0 +1,26 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import './sidebar.scss';
+
+body {
+  background-color: #f6f5fa;
+}
+
+.cursor-disabled {
+  cursor: not-allowed !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.vv-date-picker-wrapper {
+  margin-top: 20px;
+}
+
+.vv-date-picker {
+  min-width: 20rem;
+  & input {
+    width: 95%;
+    padding: 3px 2px;
+  }
+}
